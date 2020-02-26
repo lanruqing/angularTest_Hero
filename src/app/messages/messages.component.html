@@ -1,0 +1,6 @@
+<div class="alertBox" *ngIf="messageService.messages[0]">
+    <p *ngFor="let message of messageService.messages">
+        {{message}}
+    </p>
+    <button (click)="messageService.clear()">Clear</button>
+</div>

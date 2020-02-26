@@ -1,0 +1,17 @@
+.alertBox{
+    background:#90CAF9;
+    color:#F5F5F5 ;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 5px;
+    margin-top: 5px;
+    button{
+        background-color:transparent;
+        align-self: flex-end;
+        padding: 5px;
+        border: none;
+    }
+}

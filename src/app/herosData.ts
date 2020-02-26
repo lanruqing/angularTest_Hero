@@ -1,0 +1,31 @@
+import { Hero } from "./hero"
+export const HEROES:Hero[] = [
+    {
+        name:"Twitch",
+        type:"AD",
+        price:6300,
+        range:150,
+        img:"https://cdn2.leagueofgraphs.com/img/champion-icons/10.4/64/90.png"
+      },
+      {
+        name:"Malzahar",
+        type:"AP",
+        price:6300,
+        range:150,
+        img:"https://cdn2.leagueofgraphs.com/img/champion-icons/10.4/64/90.png"
+      },
+      {
+        name:"Vayne",
+        type:"AD",
+        price:6300,
+        range:150,
+        img:"https://cdn2.leagueofgraphs.com/img/champion-icons/10.4/64/90.png"
+      },
+      {
+        name:"Vi",
+        type:"Jungle",
+        price:6300,
+        range:150,
+        img:"https://cdn2.leagueofgraphs.com/img/champion-icons/10.4/64/90.png"
+      },
+]

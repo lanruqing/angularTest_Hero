@@ -1,0 +1,37 @@
+<ul>
+    <li *ngFor="let hero of heroes" (click)="selectHero(hero)" [class.selected]="hero == selectedHero">
+        <p>
+            <span class="title">
+                Name:
+            </span>
+            <span class="text">
+                {{hero.name}}
+            </span>
+        </p>
+        <p>
+            <span class="title">
+                Type:
+            </span>
+            <span class="text">
+                {{hero.type|uppercase}}
+            </span>
+        </p>
+        <p>
+            <span class="title">
+                Range:
+            </span>
+            <span class="text">
+                {{hero.range}}
+            </span>
+        </p>
+        <p>
+            <span class="title">
+                price:
+            </span>
+            <span class="text">
+                {{hero.price}}
+            </span>
+        </p>
+    </li>
+</ul>
+<app-hero-detail [hero]="selectedHero"></app-hero-detail>
